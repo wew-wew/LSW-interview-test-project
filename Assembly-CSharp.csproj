@@ -36,14 +36,15 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Misc\Interfaces.cs" />
+     <Compile Include="Assets\Scripts\Shopkeeper.cs" />
      <Compile Include="Assets\Scripts\PlayerControl.cs" />
+     <Compile Include="Assets\Scripts\Misc\DisableSpritesOnAwake.cs" />
      <Compile Include="Assets\Scripts\PlayerClothing.cs" />
+     <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\PlayerAttributes.cs" />
      <Compile Include="Assets\Scripts\UIManager.cs" />
-     <Compile Include="Assets\Scripts\Shopkeeper.cs" />
-     <Compile Include="Assets\Scripts\Misc\DisableSpritesOnAwake.cs" />
-     <Compile Include="Assets\Scripts\Misc\Interfaces.cs" />
-     <Compile Include="Assets\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Scripts\Misc\UIScaler.cs" />
      <None Include="Assets\Visuals\Kenney - Roguelike Modern City pack (CC0)\License.txt" />
      <None Include="Assets\Visuals\Kenney - kenney_RPGurbanPack (CC0)\License.txt" />
      <None Include="Assets\Visuals\Kenney - kenney_RPGurbanPack (CC0)\Tilemap\tilemap.txt" />
